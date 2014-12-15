@@ -1,0 +1,23 @@
+.kontakt { @include outer-container; margin: 1em 1.5em;
+/*
+	input, 
+	textarea {border: 0;@include inset-shadow(0,-1px,0,0,$blue1);padding: 14px 0;font-weight: 300; height: 56px;outline: 0;@include transition(all 0.2s ease);}
+
+	input:focus, 
+	textarea:focus {@include inset-shadow(0,-5px,0,0,$blue1);} */
+
+	.btn {background: $orange3; border: none; @include transition(all 0.2s ease);
+		&:hover {background: $orange1; color: #fff;}
+	}
+
+}
+
+@include media($large) {
+	.kontakt {
+		margin: 1.5em 4.5em;
+
+		&__form { @include span-columns(6); margin-top: 2.25rem; }
+
+		&__dane { @include span-columns(6); }
+	}
+}

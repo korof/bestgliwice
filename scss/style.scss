@@ -1,0 +1,30 @@
+/*!
+	Theme Name: bestgliwice
+	Author: Krzysztof Kornacki
+	Version: 1.0
+	Author URI: http://bestgliwice.pl
+	Theme URI: http://bestgliwice.pl
+	Tags: light,responsive-layout
+	Description: Szablon strony Stowarzyszenia Studentów BEST Gliwice
+	License: GNU General Public License v2 or later
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import "vendor/normalize";
+@import "vendor/bourbon/bourbon";
+@import "owlcarousel";
+@import "grid-settings";
+@import "base";
+@import "navigation";
+@import "typography";
+@import "header";
+@import "components";
+@import "aktualnosci";
+@import "kontakt";
+@import "partners";
+/*@import "wp-base";*/
+@import "content";
+@import "post-formats";
+@import "footer";
+@import "bower_components/animate.css/animate";
+/*@import "icons-svg" */

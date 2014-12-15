@@ -1,0 +1,4 @@
+@mixin inset-shadow ($horizontal: 0, $vertical: 0, $blur: 0, $spread: 0, $color: #000) {
+	-webkit-box-shadow:inset $horizontal $vertical $blur $spread $color;
+	box-shadow:inset $horizontal $vertical $blur $spread $color;
+}

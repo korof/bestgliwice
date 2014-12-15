@@ -1,0 +1,31 @@
+.format-status, .format-link, .format-quote {
+
+	.date {
+		width: 100%;
+		padding: 5px 0 0;
+	}
+}
+
+.format-status .date {
+	border-color: $color1;
+}
+
+.format-link .date {
+	border-color: $color1;
+}
+
+.format-quote .date {
+	border-color: $bgcolor;
+}
+
+.format-status .post-title {
+	font-style:italic;
+}
+
+.format-link .post-title {
+	font-style:italic;
+}
+
+.format-quote .post-title {
+	font-style:italic;
+}

@@ -1,0 +1,8 @@
+@mixin outer-container {
+  @include cf;
+  max-width: $max-width;
+  margin: {
+    left: auto;
+    right: auto;
+  }
+}

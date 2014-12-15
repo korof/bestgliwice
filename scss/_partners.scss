@@ -1,0 +1,39 @@
+.article__logo {line-height: 0; position: absolute; bottom: 0; right: 1.5em; width: 235px;
+	@include media($large) {
+		right: 4.5em;
+	}
+}
+
+.article__post-content {
+	@include outer-container;
+	padding: 1em 0;
+
+}
+
+.article__article {padding: 1em 1.5em;}
+.article__article_content {max-width: 600px; margin: 0 auto;}
+
+@include media($large) {
+	.article__article {
+		@include span-columns(8);
+		padding: 1.5em 4.5em;
+	}
+
+	.article__aside {
+		@include span-columns(4);
+
+		&--img {
+			height: 90vh; 
+			background: $blue1 no-repeat center center;
+			background-size: cover;
+		}
+	}
+}
+
+.article__footer {
+	&--col {padding-top: 5px; display: block; float: left; width: 33%;}
+		
+	&--col1 {@extend .article__footer--col; background: $blue1; border-right: 2px solid #fff;}
+	&--col2 {@extend .article__footer--col; background: $orange3;}
+	&--col3 {@extend .article__footer--col; background: $green1; border-left: 2px solid #fff;}
+}

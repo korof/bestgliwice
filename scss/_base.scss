@@ -1,0 +1,101 @@
+// variables
+$color1: #000;
+$bgcolor: #ffffff;
+
+$green1: #5bbc2b;
+$green2: #55992e;
+$green3: #b5d938;
+$green4: #eaf1c6;
+
+$blue1: #436eb3;
+$blue2: #2c3567;
+$blue3: #a9c9e9;
+$blue4: #C8EBFA;
+
+$orange1: #f1af00;
+$orange2: #ae711e;
+$orange3: #f7d321;
+$orange4: #fff2c1;
+
+$gray1: #464646;
+$gray2: #d7d7d7;
+$gray3: #e1e1e1;
+$gray4: #f5f5f5;
+$gray5: #ebebeb;
+$gray6: #f3f3f3;
+
+$menu2: #FF7340;
+$menu3: #0969A2;
+
+html {font-size: 16px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+
+// default styling
+body {
+	font-size: 16px;
+	background: $bgcolor;
+	color: $color1;
+}
+
+a {
+	color: $green1;
+	text-decoration: none;
+}
+
+h1 a {
+	color: $color1;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+input, textarea {
+	border: 1px solid $color1;
+	background: #fff;;
+}
+.fl {float: left;}
+.fr {float: right;}
+
+.tac {text-align: center;}
+.tal {text-align: left;}
+.tar {text-align: right;}
+
+.hidden2 {height: 0; overflow: hidden; opacity: 0; position: absolute;}
+
+.site {
+	overflow: hidden;
+	background: #fff;
+	@include outer-container;
+	margin-top: 56px;
+
+	@include media($large) { 
+		margin-top: 112px;
+	}
+}
+
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+	max-width: 100%;
+	height: auto;
+}
+.cf {
+	@include cf;
+}
+
+.tri_bg {
+	background-color: $green1;
+//@include filter-gradient($green1, $orange1, vertical);
+@include background-image(linear-gradient(left,  $green1 0%,$green1 33%,$blue1 33%,$blue1 66%,$orange1 66%,$orange1 100%));
+height: 5px;
+width: 100%;
+}
+
+
+[data-aload] { background-image: none !important;}
+
+.js-alink {cursor: pointer;}
+.aligncenter {display: block; margin-left: auto; margin-right: auto;}

@@ -1,0 +1,20 @@
+.owl-carousel .item {
+	background: center center;
+	background-size: cover;
+	height: 40vh;
+	/*height: 60vh;*/
+
+	@include media($large) {
+		height: 90vh;
+		max-height: 698px;
+	}
+}
+.owl-controls {position: absolute;top: 50%; width: 100%; margin-top: -36px;
+
+	.owl-prev {opacity: 0.7; position: absolute; left: 10px; @include font-size(3); color: #fff;}
+
+	.owl-next {opacity: 0.7; position: absolute; right: 10px; @include font-size(3); color: #fff; @include transform(rotate(180deg));}
+
+	.owl-prev:hover,
+	.owl-next:hover {opacity: 1;}
+}

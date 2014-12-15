@@ -1,0 +1,61 @@
+.footer-widgets {
+	@include cf;
+	@include span-columns(12);
+
+	background: $color1;
+	padding: 1.5em 0;
+	list-style: none;
+	margin: 0;
+
+}
+.footer {@include outer-container; background: url(images/foot.jpg) no-repeat top center; background-size: cover; text-align: center; padding: 16px; color: #fff;font-size: 14px;
+	header {margin-bottom: 16px;}
+	h2 {color: $orange3;font-size: 28px; margin: 0;line-height: 28px;font-weight: 800;}
+	h3 {color: #fff; font-weight: 100;font-size: 28px; margin: 0;line-height: 28px; margin-top: -10px;}
+	.col {width: 100%; margin-top: 100px;}
+
+	svg {fill: #fff;}
+	&__social {text-align: center; margin-top: 50px;
+		a {width: 36px; color: #fff; display: inline-block; border: 2px solid #fff; border-radius: 50%; padding: 2px; height: 36px;padding-top: 6px; margin-left: 10px; 
+			&:hover {border-color: $orange3;
+				svg {fill: $orange3;}
+			} 
+		}
+	}
+	.footer_tekst {text-align: center; margin-top: 20px;}
+
+	@include media($large) {
+		padding: 66px;
+
+		header {margin-bottom: 100px;}
+
+		h2 {font-size: 48px;line-height: 48px;}
+		h3 {font-size: 48px;line-height: 48px;margin-top: -19px;}
+
+		.col {width: 25%; float: left;margin-top: 0px;}
+		.footer_tekst {text-align: left;}
+	}
+}
+
+.footer__icon {position: relative;
+	&:before {content: ''; position: absolute; top: -70px; background: url(images/events.png) no-repeat 0px 0px; display: inline-block; width: 50px; height: 60px;left: 50%;margin-left: -25px; @include transition(all 0.3s ease);}
+
+	/*&:hover:before {@include transform(translateY(-10px));} */
+}
+.icon__maps:before {background-position: 0px -135px;}
+.icon__mail:before {background-position: -131px -135px; width: 54px;}
+.icon__phone:before {background-position: -63px -135px;}
+
+.global-footer__nav {
+	&_bestorg {float: left; padding-top: 5px; padding-left: 8px;}
+	&_copy {float: right; text-align: right; padding-right: 16px; line-height: 56px; color: $blue1; font-size: 0.8rem;}
+	
+	@include media($large) {
+		&_bestorg {
+			padding-left: 24px;
+		}
+		&_copy {
+			padding-right: 24px;
+		}
+	}
+}

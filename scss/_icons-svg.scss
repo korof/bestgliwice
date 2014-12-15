@@ -1,0 +1,302 @@
+// Icons from directory ""
+%icon {
+	background-repeat: no-repeat;
+	background-image: url('images/icons.svg');
+}
+.icon-alert,
+.icon-alert\:regular {
+	@extend %icon;
+	background-position: 0 0;
+}
+.icon-alert-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-bin,
+.icon-bin\:regular {
+	@extend %icon;
+	background-position: 0 -200px;
+}
+.icon-bin-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-bomb,
+.icon-bomb\:regular {
+	@extend %icon;
+	background-position: 0 -400px;
+}
+.icon-bomb-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-bottle,
+.icon-bottle\:regular {
+	@extend %icon;
+	background-position: 0 -600px;
+}
+.icon-bottle-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-bulb,
+.icon-bulb\:regular {
+	@extend %icon;
+	background-position: 0 -800px;
+}
+.icon-bulb-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-camera,
+.icon-camera\:regular {
+	@extend %icon;
+	background-position: 0 -1000px;
+}
+.icon-camera-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-case,
+.icon-case\:regular {
+	@extend %icon;
+	background-position: 0 -1200px;
+}
+.icon-case-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-chart,
+.icon-chart\:regular {
+	@extend %icon;
+	background-position: 0 -1400px;
+}
+.icon-chart-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-chat,
+.icon-chat\:regular {
+	@extend %icon;
+	background-position: 0 -1600px;
+}
+.icon-chat-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-clock,
+.icon-clock\:regular {
+	@extend %icon;
+	background-position: 0 -1800px;
+}
+.icon-clock-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-code,
+.icon-code\:regular {
+	@extend %icon;
+	background-position: 0 -2000px;
+}
+.icon-code-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-cv,
+.icon-cv\:regular {
+	@extend %icon;
+	background-position: 0 -2200px;
+}
+.icon-cv-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-edit,
+.icon-edit\:regular {
+	@extend %icon;
+	background-position: 0 -2400px;
+}
+.icon-edit-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-edit_file,
+.icon-edit_file\:regular {
+	@extend %icon;
+	background-position: 0 -2600px;
+}
+.icon-edit_file-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-gamepad,
+.icon-gamepad\:regular {
+	@extend %icon;
+	background-position: 0 -2800px;
+}
+.icon-gamepad-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-gear,
+.icon-gear\:regular {
+	@extend %icon;
+	background-position: 0 -3000px;
+}
+.icon-gear-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-gears,
+.icon-gears\:regular {
+	@extend %icon;
+	background-position: 0 -3200px;
+}
+.icon-gears-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-gift,
+.icon-gift\:regular {
+	@extend %icon;
+	background-position: 0 -3400px;
+}
+.icon-gift-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-globus,
+.icon-globus\:regular {
+	@extend %icon;
+	background-position: 0 -3600px;
+}
+.icon-globus-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-home,
+.icon-home\:regular {
+	@extend %icon;
+	background-position: 0 -3800px;
+}
+.icon-home-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-image,
+.icon-image\:regular {
+	@extend %icon;
+	background-position: 0 -4000px;
+}
+.icon-image-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-inbox,
+.icon-inbox\:regular {
+	@extend %icon;
+	background-position: 0 -4200px;
+}
+.icon-inbox-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-label,
+.icon-label\:regular {
+	@extend %icon;
+	background-position: 0 -4400px;
+}
+.icon-label-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-map_marker,
+.icon-map_marker\:regular {
+	@extend %icon;
+	background-position: 0 -4600px;
+}
+.icon-map_marker-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-new,
+.icon-new\:regular {
+	@extend %icon;
+	background-position: 0 -4800px;
+}
+.icon-new-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-outbox,
+.icon-outbox\:regular {
+	@extend %icon;
+	background-position: 0 -5000px;
+}
+.icon-outbox-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-pen,
+.icon-pen\:regular {
+	@extend %icon;
+	background-position: 0 -5200px;
+}
+.icon-pen-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-pig,
+.icon-pig\:regular {
+	@extend %icon;
+	background-position: 0 -5400px;
+}
+.icon-pig-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-print,
+.icon-print\:regular {
+	@extend %icon;
+	background-position: 0 -5600px;
+}
+.icon-print-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-remove_file,
+.icon-remove_file\:regular {
+	@extend %icon;
+	background-position: 0 -5800px;
+}
+.icon-remove_file-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-road_sign,
+.icon-road_sign\:regular {
+	@extend %icon;
+	background-position: 0 -6000px;
+}
+.icon-road_sign-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-tone,
+.icon-tone\:regular {
+	@extend %icon;
+	background-position: 0 -6200px;
+}
+.icon-tone-dims {
+	width: 200px;
+	height: 200px;
+}
+.icon-video_camera,
+.icon-video_camera\:regular {
+	@extend %icon;
+	background-position: 0 -6400px;
+}
+.icon-video_camera-dims {
+	width: 200px;
+	height: 200px;
+}
